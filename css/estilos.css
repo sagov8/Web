@@ -5,7 +5,11 @@ h1 {
 }
 
 p {
-    color: brown;
+    color: white;
     font-size: 50px;
     font-family: 'Verdana', 'Geneva', 'Tahoma', 'sans-serif';
+    background-color: blue;
+    padding: 15px;
+    border: 10px solid black;
+    margin: 50px 10px 20px 10px;
 }
