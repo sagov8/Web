@@ -12,6 +12,18 @@ p {
     background-color: #dcab6b;
     padding: 15px;
     border: 10px solid #774e24;
-    margin: auto 50px;
+    margin: 10ṕx 50px;
     text-align: center;
+}
+
+a:link {
+    color:#6A381F;
+    text-align: center;
+    font-size: 40px;
+    padding: 10px;
+    margin: 50px 50px 50px;
+}
+
+a:visited {
+    color: #dcab6b;
 }
