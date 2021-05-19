@@ -17,13 +17,25 @@ p {
 }
 
 a:link {
-    color:#6A381F;
+    color:#ffffb3;
+    background-color: #dcab6b;
     text-align: center;
     font-size: 40px;
-    padding: 10px;
-    margin: 50px 50px 50px;
+    padding: 10px 10px;
+    margin: 50px 10px 10px;
+    text-decoration: none;
 }
 
 a:visited {
-    color: #dcab6b;
+    color: #ffffb3;
+}
+
+a:hover {
+    color: white;
+    background-color: #774e24;
+}
+
+a:active {
+    color: #6e0d25;
+    text-decoration: wavy;
 }
