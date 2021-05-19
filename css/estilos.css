@@ -7,6 +7,15 @@
     text-align: center;
 }
 
+h1 {
+    color: #ffffff;
+    background-color: #212227;
+    padding: 100px;
+    font-size: 80px;
+    font-family: 'Impact', 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
+    text-align: center; 
+}
+
 h2 {
     color: #ffffff;
     font-size: 50px;
@@ -26,6 +35,12 @@ h2 {
 .embebed {
     display: flex;
     justify-content: center;
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
 }
 
 p{
