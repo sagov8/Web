@@ -1,15 +1,17 @@
 h1 {
-    color: blue;
+    color: #6e0d25;
     font-size: 100px;
     font-family: 'Impact', 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
+    text-align: center;
 }
 
 p {
-    color: white;
+    color: #ffffb3;
     font-size: 50px;
     font-family: 'Verdana', 'Geneva', 'Tahoma', 'sans-serif';
-    background-color: blue;
+    background-color: #dcab6b;
     padding: 15px;
-    border: 10px solid black;
-    margin: 50px 10px 20px 10px;
+    border: 10px solid #774e24;
+    margin: auto 50px;
+    text-align: center;
 }
