@@ -23,6 +23,11 @@ h2 {
     justify-content: center;
 }
 
+.embebed {
+    display: flex;
+    justify-content: center;
+}
+
 p{
     color: #746d75;
     font-size: 20px;
