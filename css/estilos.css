@@ -30,6 +30,39 @@ p{
 
 }
 
+table {
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+    text-align: center;
+}
+
+th {
+    color: #ffffff;
+    background-color: #da9263;
+    font-size: 20px;
+    font-family: 'Verdana', 'Geneva', 'Tahoma', 'sans-serif';
+    padding: 20px;
+
+}
+
+td {
+    color: #494749;
+    font-family: 'Verdana', 'Geneva', 'Tahoma', 'sans-serif';
+}
+
+caption {
+    color: #746d75;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Verdana', 'Geneva', 'Tahoma', 'sans-serif';
+    padding: 20px;
+}
+
 a:link {
     color:#746d75;
     font-family: 'Impact', 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
