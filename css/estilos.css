@@ -48,7 +48,21 @@ h2 {
     justify-content: center;
     padding: 20px;
     margin: 30px;
+    background: linear-gradient(#637074, #212227); 
 
+}
+
+.formulario {
+    background-color: #21222780;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.formulario label {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    color: #ffffff;
 }
 
 p{
