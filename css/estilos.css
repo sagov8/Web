@@ -1,3 +1,4 @@
+/*Estilos gnal*/
 #titulo_principal {
     color: #ffffff;
     background-color: #212227;
@@ -43,47 +44,6 @@ h2 {
     margin: 30px;
 }
 
-.form {
-    display: flex;
-    justify-content: center;
-    padding: 20px;
-    margin: 30px;
-    background: linear-gradient(#637074, #212227); 
-
-}
-
-.formulario {
-    background-color: #21222780;
-    padding: 30px;
-    border-radius: 20px;
-}
-
-.formulario label {
-    font-size: 13px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 10px;
-    color: #ffffff;
-}
-
-.formulario input {
-    width: 100%;
-    padding: 10px 0;
-    color: #ffffff;
-    background: transparent;
-    border: none;
-    border-bottom: 1px solid #ffffff;
-    margin-bottom: 20px;
-    ::
-}
-
-.btnSubmit {
-    display: flex;
-    justify-content: center;
-    background-color: #ffffff;
-    border: none;
-    text-transform: uppercase;
-}
-
 p{
     color: #746d75;
     font-size: 20px;
@@ -92,31 +52,6 @@ p{
     margin: 20px;
     text-align: inherit;
 
-}
-
-table {
-    width: 100%;
-}
-
-table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
-    padding: 5px;
-    text-align: center;
-}
-
-th {
-    color: #ffffff;
-    background-color: #212227;
-    font-size: 20px;
-    font-family: 'Verdana', 'Geneva', 'Tahoma', 'sans-serif';
-    padding: 20px;
-
-}
-
-td {
-    color: #494749;
-    font-family: 'Verdana', 'Geneva', 'Tahoma', 'sans-serif';
 }
 
 caption {
@@ -151,3 +86,132 @@ a:active {
     color: #6e0d25;
     text-decoration: wavy;
 }
+
+/*Estilos formulario */
+
+.form {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    margin: 40px;
+    background: linear-gradient(#637074, #212227); 
+
+}
+
+.formulario {
+    background-color: #21222780;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.formulario label {
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    padding: 10px;
+    color: #ffffff80;
+
+}
+
+.formulario input {
+    width: 100%;
+    padding: 10px 0;
+    color: #ffffff;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.input-group {
+    margin-top: 10px;
+}
+
+.radiobtn {
+    display: none;
+}
+.buttons_r {
+    margin-left: -40px;
+}
+
+.buttons_r li {
+    display: block;
+}
+
+.buttons_r li label {
+    padding-left: 30px;
+    position: relative;
+    left: -25px;
+}
+
+.buttons_r li label:hover {
+    cursor: pointer;
+}
+
+.buttons_r li span {
+    display: inline-block;
+    position: relative;
+    top: 5px;
+    border: 2px solid #ccc;
+    width: 18px;
+    height: 18px;
+    background: #fff;
+}
+
+.radiobtn_r:checked + span::before {
+    content: '';
+    border: 2px solid #fff;
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    background-color: #c3e3fc;
+}
+
+.form .elemento input[type="submit"] {
+    background-color: #8693ab;
+    border: none;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 15px;
+    margin-top: 30px;
+    le
+}
+
+#tipo {
+    width: 100%;
+    border: none;
+    background-color: #212227;
+    font-size: 15px;
+    color: #ccc;
+
+}
+
+/*Estilos tablas*/
+
+table {
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+    text-align: center;
+}
+
+th {
+    color: #ffffff;
+    background-color: #212227;
+    font-size: 20px;
+    font-family: 'Verdana', 'Geneva', 'Tahoma', 'sans-serif';
+    padding: 20px;
+
+}
+
+td {
+    color: #494749;
+    font-family: 'Verdana', 'Geneva', 'Tahoma', 'sans-serif';
+}
+
