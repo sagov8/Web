@@ -100,12 +100,12 @@ a:active {
 
 .formulario {
     background-color: #21222780;
-    padding: 50px;
+    padding: 100px;
     border-radius: 20px;
 }
 
 .formulario label {
-    font-size: 13px;
+    font-size: 14px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     padding: 10px;
@@ -176,16 +176,17 @@ a:active {
     cursor: pointer;
     padding: 15px;
     margin-top: 30px;
-    le
 }
 
 #tipo {
     width: 100%;
-    border: none;
-    background-color: #212227;
-    font-size: 15px;
+    text-align: center;
     color: #ccc;
-
+    background-color: #212227;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    padding: 5px;
 }
 
 /*Estilos tablas*/
