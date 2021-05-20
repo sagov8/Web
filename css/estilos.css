@@ -59,10 +59,29 @@ h2 {
 }
 
 .formulario label {
-    font-size: 20px;
+    font-size: 13px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 10px;
     color: #ffffff;
+}
+
+.formulario input {
+    width: 100%;
+    padding: 10px 0;
+    color: #ffffff;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    margin-bottom: 20px;
+    ::
+}
+
+.btnSubmit {
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+    border: none;
+    text-transform: uppercase;
 }
 
 p{
