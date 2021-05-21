@@ -63,51 +63,19 @@
               min="1"
               max="120"
             /><br />
-            <label for="genero" style="align-self: ">Género</label>
           </div>
-          <div class="input-group">
-            <ul class="buttons_r">
-              <li>
-                <input
-                  id="radiobtn1"
-                  class="radiobtn"
-                  name="genero"
-                  type="radio"
-                  value="Femenino"
-                  tabindex="1"
-                />
-                <span></span>
-                <label for="radiobtn1">Femenino</label>
-              </li>
-              <li>
-                <input
-                  id="radiobtn2"
-                  class="radiobtn"
-                  name="genero"
-                  type="radio"
-                  value="Masculino"
-                  tabindex="2"
-                />
-                <span></span>
-                <label for="radiobtn1">Masculino</label>
-              </li>
-              <li>
-                <input
-                  id="radiobtn3"
-                  class="radiobtn"
-                  name="genero"
-                  type="radio"
-                  value="Otro"
-                  tabindex="3"
-                />
-                <span></span>
-                <label for="radiobtn1">Otro</label>
-              </li>
-            </ul>
-          </div>
-        </br>
           <div class="Type">
-            <label for="tipo">Tipo</label><br /><br />
+            <label for="genero">Género</label><br />
+            <select name="tipo" id="tipo">
+              <option value="Femenino">Femenino</option>
+              <option value="Masculino">Masculino</option>
+              <option value="Otro">Otro</option>
+            </select>
+
+            <br /><br />
+          </div>
+          <div class="Type">
+            <label for="tipo">Tipo</label><br />
             <select name="tipo" id="tipo">
               <option value="artista">Artista</option>
               <option value="empresa">Empresa</option>
@@ -117,10 +85,9 @@
             <br /><br />
           </div>
           <div class="elemento">
-            <input type="submit" value="Enviar" id="submit_btn"/>
+            <input type="submit" value="Enviar" id="submit_btn" />
           </div>
         </div>
-        
       </form>
     </div>
   </body>

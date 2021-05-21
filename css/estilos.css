@@ -6,6 +6,8 @@
     font-size: 100px;
     font-family: 'Impact', 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
     text-align: center;
+    text-shadow: 2px 2px 2px #8693ab7e;
+    letter-spacing: 10px;
 }
 
 h1 {
@@ -15,6 +17,7 @@ h1 {
     font-size: 80px;
     font-family: 'Impact', 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
     text-align: center;
+    margin-top: 0%;
 }
 
 h2 {
@@ -31,6 +34,7 @@ h2 {
 .botones {
     display: flex;
     justify-content: center;
+    max-width: 100%;
 }
 
 .embebed {
@@ -88,12 +92,18 @@ a:active {
 }
 
 #copyright {
-    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 footer {
     width: 100%;
     background-color: #212227;
+    text-align: center;
+    padding: 40px;
+    border-bottom: 0%;
+    margin-bottom: 0%;
+    box-sizing: border-box;
 }
 
 /*Estilos formulario */
@@ -114,12 +124,14 @@ footer {
 }
 
 .formulario label {
+    display: flex;
+    justify-content: center;
     font-size: 14px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     padding: 10px;
     color: #ffffff80;
-
+    text-align: center;
 }
 
 .formulario input {
@@ -131,51 +143,6 @@ footer {
     border-bottom: 1px solid #ffffff;
     margin-bottom: 20px;
     text-align: center;
-}
-
-.input-group {
-    margin-top: 10px;
-}
-
-.radiobtn {
-    display: none;
-}
-
-.buttons_r {
-    margin-left: -40px;
-}
-
-.buttons_r li {
-    display: block;
-}
-
-.buttons_r li label {
-    padding-left: 30px;
-    position: relative;
-    left: -25px;
-}
-
-.buttons_r li label:hover {
-    cursor: pointer;
-}
-
-.buttons_r li span {
-    display: inline-block;
-    position: relative;
-    top: 5px;
-    border: 2px solid #ccc;
-    width: 18px;
-    height: 18px;
-    background: #fff;
-}
-
-.radiobtn_r:checked+span::before {
-    content: '';
-    border: 2px solid #fff;
-    position: absolute;
-    width: 14px;
-    height: 14px;
-    background-color: #c3e3fc;
 }
 
 .form .elemento input[type="submit"] {
@@ -199,12 +166,12 @@ footer {
 
 #tipo {
     width: 100%;
-    text-align: center;
     color: #ccc;
     background-color: #212227;
     font-size: 14px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
+    text-align: center;
     padding: 5px;
 }
 
