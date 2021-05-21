@@ -54,8 +54,15 @@ p {
     font-family: 'Verdana', 'sans-serif';
     padding: 20px;
     margin: 20px;
-    text-align: inherit;
+    text-align: left;
+    line-height: 2;
 
+}
+
+#sago {
+    width: 30%;
+    float: right;
+    padding: 30px;
 }
 
 caption {
@@ -112,14 +119,14 @@ footer {
     display: flex;
     justify-content: center;
     padding: 30px;
-    margin: 20px;
+    margin: 50px;
     background: linear-gradient(#637074, #212227);
 
 }
 
 .formulario {
     background-color: #21222780;
-    padding: 120px;
+    padding: 100px;
     border-radius: 20px;
 }
 
@@ -171,7 +178,7 @@ footer {
     font-size: 14px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
-    text-align: center;
+    text-align-last: center;
     padding: 5px;
 }
 
