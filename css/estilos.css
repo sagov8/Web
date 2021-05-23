@@ -119,6 +119,10 @@ footer {
     box-sizing: border-box;
     font-variant: small-caps;
 }
+/*Estilos iconos*/
+.bi bi-house-door {
+    width: 20px;
+}
 
 /*Estilos formulario */
 
