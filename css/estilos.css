@@ -36,6 +36,9 @@ h2 {
 }
 
 .botones {
+    position: relative;
+    top: 5px;
+    bottom: 20px;
     max-width: 100%;
     margin: auto;
 
@@ -112,7 +115,9 @@ a:active {
 }
 
 footer {
-    width: 100%;
+    position: relative;
+    top: 60px;
+    max-width: 100%;
     background-color: #212227;
     text-align: center;
     padding: 40px;
@@ -200,6 +205,16 @@ nav {
     font-weight: bold;
     text-align-last: center;
     padding: 5px;
+}
+
+.boton_up {
+    position: relative;
+    bottom:20px;
+    top: 20px;
+    left: 42%;
+    right: 50%;
+    max-width: 50%;
+    margin: auto;
 }
 
 /*Estilos tablas*/
