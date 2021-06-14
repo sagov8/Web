@@ -36,9 +36,9 @@ h2 {
 }
 
 .botones {
-    display: inline;
-    justify-content: center;
     max-width: 100%;
+    margin: auto;
+
 
 }
 
@@ -89,6 +89,7 @@ a:link {
     padding: 40px;
     margin: 20px 20px 20px 20px;
     text-decoration: none;
+    display: inline;
 }
 
 a:visited {
@@ -117,7 +118,6 @@ footer {
     padding: 40px;
     border-bottom: 0%;
     margin-bottom: 0%;
-    box-sizing: border-box;
     font-variant: small-caps;
 }
 /*Estilos iconos*/
@@ -128,8 +128,9 @@ footer {
     vertical-align: middle;
 }
 
-.home:hover {
-    color: #fff;
+nav {
+    width: auto;
+    margin: auto;
 }
 
 /*Estilos formulario */
