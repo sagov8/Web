@@ -17,6 +17,10 @@ h1 {
     color: #ffffff;
     background-color: #212227;
     padding: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    letter-spacing: 10px;
+    font-variant: small-caps;
     font-size: 80px;
     text-align: center;
     margin-top: 0%;
@@ -33,6 +37,10 @@ h2 {
     text-align: center;
     border-radius: 40px;
     letter-spacing: 4px;
+    display: flexbox;
+    left: 50%;
+    right: 50%;
+    
 }
 
 .botones {
@@ -86,7 +94,7 @@ caption {
 a:link {
     color: #746d75;
     font-family: 'Impact', 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0);
     text-align: center;
     font-size: 40px;
     padding: 40px;
@@ -136,6 +144,9 @@ footer {
 nav {
     width: auto;
     margin: auto;
+    position: sticky;
+    top: 0;
+    background-color: #ffffff98;
 }
 
 /*Estilos formulario */
