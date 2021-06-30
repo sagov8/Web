@@ -54,11 +54,28 @@ h2 {
 }
 
 .embebed {
-    display: flex;
-    justify-content: center;
+    
     padding: 20px;
-    margin: 20px;
+    
+    float: left;
 }
+
+.souncloud {
+    float: left;
+}
+
+.container {
+    float: inline-end;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+.tablaLan{
+    justify-content: center;
+    padding-left: 40%;
+}
+
+
 
 .logos {
     display: flex;
@@ -230,16 +247,12 @@ nav {
 
 /*Estilos tablas*/
 
-table {
-    width: 100%;
-}
 
 table,
 th,
 td {
     border: 1px solid black;
     border-collapse: collapse;
-    padding: 5px;
     text-align: center;
 }
 
@@ -256,3 +269,4 @@ td {
     color: #494749;
     font-family: 'Verdana', 'Geneva', 'Tahoma', 'sans-serif';
 }
+
