@@ -270,3 +270,11 @@ td {
     font-family: 'Verdana', 'Geneva', 'Tahoma', 'sans-serif';
 }
 
+img {
+    opacity: 0.5;
+}
+
+img:hover{
+    opacity: 1.0;
+}
+
